@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+:root {
+  --font-family: "Manrope", sans-serif;
+
+  --color-bg: #040c18;
+  --background: linear-gradient(
+    90deg,
+    rgba(0, 40, 83, 0.76) 0%,
+    rgba(4, 12, 24, 0.98) 100%
+  );
+  --gradient-text: radial-gradient(
+    circle at 3% -25%,
+    rgba(174, 103, 250, 1) 1%,
+    rgba(244, 152, 103, 1) 100%
+  );
+}
+
+/* my second media query */
+
+/* .gpt3__navbar-menu {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .gpt3__navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .gpt3__navbar-menu {
+    display: block;
+  }
+
+  .gpt3__navbar-links_container {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    position: absolute;
+    right: 0;
+    top: 6.4rem;
+    background: var(--background);
+    width: 60%;
+    border-radius: 5px;
+    padding: 2rem 4rem;
+  }
+
+  .offscreen {
+    display: none;
+  }
+  .gpt3__navbar-sign {
+    display: flex;
+    position: absolute;
+    right: 7rem;
+  }
+  .gpt3__navbar-menu_container {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    font-size: 2rem;
+  }
+  .gpt3__navbar-links_container p a {
+    border-bottom: 1px solid #fff;
+    display: block;
+  }
+} */
