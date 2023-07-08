@@ -1,0 +1,224 @@
+/* .gpt3__whatgpt {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  background-image: radial-gradient(
+    circle at 0% 0%,
+    rgba(34, 12, 113, 1) 0%,
+    rgba(12, 14, 60, 1) 83%
+  );
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.9);
+  padding: 3rem 4rem;
+}
+
+.gpt3__what_is {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gpt3__what_is div {
+  color: #f2f2f2;
+}
+
+.gpt3__what_is p {
+  color: #81afdd;
+  width: 70%;
+}
+
+.gpt3__possiblity {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gpt3__possiblity h1 {
+  font-weight: 800;
+  font-size: 30px;
+  width: 25rem;
+}
+
+.gpt3__possiblity button {
+  border: none;
+  cursor: pointer;
+}
+
+.gpt3__possiblity button:hover {
+  transition: 1s;
+  color: #ff4820;
+}
+
+.gpt3__whatgpt-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gpt3__whatgpt-about section {
+  display: flex;
+  flex-flow: column nowrap;
+  color: #81afdd;
+
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.gpt3__whatgpt-about section h4 {
+  color: #f2f2f2;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 20px;
+} */
+
+.gpt3__whatgpt3 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+}
+
+.gpt3__whatgpt3-features .gpt3__features-container__feature-text {
+  color: #81afdd;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container__feature-text {
+  color: #81afdd;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container__feature-title {
+  color: #f2f2f2;
+}
+
+.gpt3__whatgpt3-features .gpt3__features-container__features {
+  margin: 0;
+}
+
+.gpt3__whatgpt3-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 3rem 0 2rem;
+}
+
+.gpt3__whatgpt3-heading h1 {
+  width: 30rem;
+  height: 6rem;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.gpt3__whatgpt3-heading p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: var(--color-subtext);
+}
+
+.gpt3__whatgpt3-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin-top: 2rem;
+}
+
+/* styling the features component */
+
+.gpt3__whatgpt3-container .gpt3__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  display: unset;
+  min-width: 210px;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container__feature-text {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .gpt3__whatgpt3-heading h1 {
+    height: 6rem;
+  }
+
+  .gpt3__whatgpt3-heading p {
+    margin-top: 1rem;
+  }
+
+  .gpt3__whatgpt3-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gpt3__whatgpt3-heading h1 {
+    width: 20rem;
+    font-size: 2rem;
+    height: auto;
+  }
+
+  .gpt3__whatgpt3-container {
+    flex-direction: column;
+  }
+
+  .gpt3__whatgpt3-features .gpt3__features-container__feature-text {
+    margin-top: 1rem;
+  }
+
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 25px;
+    line-height: 35px;
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .gpt3__whatgpt3-features .gpt3__features-container__feature-title {
+    font-size: 0.8rem;
+  }
+
+  .gpt3__whatgpt3-features .gpt3__features-container__feature-text {
+    font-size: 0.8rem;
+  }
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    margin: 1rem 0;
+  }
+
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 1rem;
+    width: 10rem;
+  }
+
+  .gpt3__whatgpt3-heading p {
+    font-size: 0.8rem;
+  }
+
+  .gpt3__whatgpt3-container .gpt3__features-container__feature h1 {
+    font-size: 1.5rem;
+  }
+
+  .gpt3__whatgpt3-container .gpt3__features-container__feature-text {
+    font-size: 0.8rem;
+  }
+}

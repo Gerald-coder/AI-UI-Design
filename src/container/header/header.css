@@ -92,3 +92,20 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 550px) {
+  .gpt3__header-left h1 {
+    font-size: 1rem;
+  }
+
+  .gpt3__header-left p {
+    margin-top: 0;
+    font-size: 0.5rem;
+  }
+
+  .gpt3__header-content__input input {
+    width: 18rem;
+  }
+  .gpt3__header-content__input button {
+    width: 8rem;
+  }
+}

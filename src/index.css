@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
 
 :root {
@@ -16,50 +17,14 @@
   );
 }
 
-/* my second media query */
+:root {
+  --font-family: "Manrope", sans-serif;
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
-/* .gpt3__navbar-menu {
-  display: none;
+  --color-bg: #040c18;
+  --color-footer: #031b34;
+  --color-blog: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
 }
-@media screen and (max-width: 900px) {
-  .gpt3__navbar-links {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-  .gpt3__navbar-menu {
-    display: block;
-  }
-
-  .gpt3__navbar-links_container {
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 2rem;
-    position: absolute;
-    right: 0;
-    top: 6.4rem;
-    background: var(--background);
-    width: 60%;
-    border-radius: 5px;
-    padding: 2rem 4rem;
-  }
-
-  .offscreen {
-    display: none;
-  }
-  .gpt3__navbar-sign {
-    display: flex;
-    position: absolute;
-    right: 7rem;
-  }
-  .gpt3__navbar-menu_container {
-    position: absolute;
-    top: 2rem;
-    right: 3rem;
-    font-size: 2rem;
-  }
-  .gpt3__navbar-links_container p a {
-    border-bottom: 1px solid #fff;
-    display: block;
-  }
-} */
