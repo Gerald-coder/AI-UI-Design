@@ -2,7 +2,6 @@ import React from "react";
 import "./article.css";
 
 function Article({ imgUrl, date, title }) {
-  console.log(date, title);
   return (
     <div className="gpt3__blog-container_article">
       <div className="gpt3__blog-container_article-image">
