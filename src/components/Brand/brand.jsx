@@ -6,9 +6,9 @@ function Brand() {
   const images = [atlassian, dropbox, google, shopify, slack];
   return (
     <div className="gpt3__brand section__padding">
-      {images.map((img) => {
+      {images.map((img, ind) => {
         return (
-          <div>
+          <div key={ind}>
             <img src={img} />
           </div>
         );
