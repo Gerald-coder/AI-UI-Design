@@ -16,6 +16,6 @@ function Article({ imgUrl, date, title }) {
       </div>
     </div>
   );
-}
+  }
 
 export default Article;
