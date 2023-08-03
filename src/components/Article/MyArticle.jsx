@@ -1,7 +1,7 @@
 import React from "react";
 import "./article.css";
 
-function Article({ imgUrl, date, title }) {
+function MyArticle({ imgUrl, date, title }) {
   return (
     <div className="gpt3__blog-container_article">
       <div className="gpt3__blog-container_article-image">
@@ -16,6 +16,6 @@ function Article({ imgUrl, date, title }) {
       </div>
     </div>
   );
-  }
+}
 
-export default Article;
+export default MyArticle;

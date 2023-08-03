@@ -2,7 +2,7 @@ import React from "react";
 import "./blog.css";
 // import Article  from "../../components";
 import { blog01, blog02, blog03, blog04, blog05 } from "./imports";
-import Article from "../../components/article/Article";
+import MyArticle from "../../components/article/MyArticle";
 
 function Blog() {
   const date = () => {
@@ -21,29 +21,29 @@ function Blog() {
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
-          <Article
+          <MyArticle
             imgUrl={blog04}
             date={date()}
             title="AI is the future, chatGPT is here to help us, lets explore it "
           />
         </div>
         <div className="gpt3__blog-container_groupB">
-          <Article
+          <MyArticle
             imgUrl={blog02}
             date={date()}
             title="AI is the future, chatGPT is here to help us, lets explore it "
           />
-          <Article
+          <MyArticle
             imgUrl={blog03}
             date={date()}
             title="AI is the future, chatGPT is here to help us, lets explore it "
           />
-          <Article
+          <MyArticle
             imgUrl={blog01}
             date={date()}
             title="AI is the future, chatGPT is here to help us, lets explore it "
           />
-          <Article
+          <MyArticle
             imgUrl={blog05}
             date={date()}
             title="AI is the future, chatGPT is here to help us, lets explore it "
