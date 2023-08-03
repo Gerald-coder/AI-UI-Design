@@ -2,7 +2,7 @@ import React from "react";
 import "./brand.css";
 import { atlassian, dropbox, google, shopify, slack } from "./import";
 
-function Brand() {
+function MyBrand() {
   const images = [atlassian, dropbox, google, shopify, slack];
   return (
     <div className="gpt3__brand section__padding">
@@ -17,4 +17,4 @@ function Brand() {
   );
 }
 
-export default Brand;
+export default MyBrand;

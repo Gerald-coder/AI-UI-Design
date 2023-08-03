@@ -7,7 +7,7 @@ import {
   WhatGPT3,
 } from "./container";
 // import { Brand, CTA, Navbar } from "./components/index";
-import Brand from "./components/Brand/Brand";
+import MyBrand from "./components/Brand/MyBrand";
 import CTA from "./components/CallToAction/CTA";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand />
+      <MyBrand />
       <WhatGPT3 />
       <Features />
       <Possibility />
