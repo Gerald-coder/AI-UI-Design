@@ -6,7 +6,11 @@ import {
   Possibility,
   WhatGPT3,
 } from "./container";
-import { Brand, CTA, Navbar } from "./components";
+// import { Brand, CTA, Navbar } from "./components/index";
+import Brand from "./components/Brand/Brand";
+import CTA from "./components/CallToAction/CTA";
+import Navbar from "./components/Navbar/Navbar";
+
 import "./App.css";
 
 function App() {
